@@ -1,0 +1,19 @@
+{
+  "name": "vue-test",
+  "version": "0.0.1",
+  "description": "vue examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustyoo86/vue-test.git"
+  },
+  "author": "kern.yoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustyoo86/vue-test/issues"
+  },
+  "homepage": "https://github.com/trustyoo86/vue-test#readme"
+}
