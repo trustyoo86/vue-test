@@ -24,7 +24,6 @@
     "babel-loader": "^8.0.6",
     "path": "^0.12.7",
     "vue": "^2.6.10",
-    "vue-cli": "^2.9.6",
     "vue-loader": "^15.7.2",
     "vue-template-compiler": "^2.6.10",
     "vue-template-loader": "^1.0.0",
