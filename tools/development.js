@@ -7,6 +7,6 @@ module.exports = merge(base, {
   mode: 'development',
   devServer: {
     watch: true,
-    port: 9000,
+    clientLogLevel: 'debug',
   },
 });
