@@ -5,8 +5,8 @@ const base = require('./base');
 
 module.exports = merge(base, {
   mode: 'development',
+  devtool: '#source-map',
   devServer: {
-    watch: true,
-    clientLogLevel: 'debug',
+    hot: true,
   },
 });
