@@ -1,5 +1,6 @@
 'use strict';
 
+const HtmlWebpackPlugin = require('vue-html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const { join } = require('path');
 
@@ -27,5 +28,8 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin(),
+    new HtmlWebpackPlugin({
+      vue: true,
+    }),
   ],
 };
